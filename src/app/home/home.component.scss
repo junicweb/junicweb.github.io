@@ -1,0 +1,21 @@
+header {
+  background: url(../../assets/junicbackground.jpeg);
+  height: 100vh;
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.container-servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 24%;
+}

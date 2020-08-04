@@ -121,8 +121,16 @@
               "devServerTarget": "junic-website:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "junic-website"
+    }
+  },
+  "defaultProject": "junic-website",
+  "cli": {
+    "analytics": false
+  }
 }
