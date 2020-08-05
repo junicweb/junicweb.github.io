@@ -6,6 +6,15 @@
     padding:20px;
 }
 
+.icon {
+    font-size: 50px;
+    color:  rgb(255, 228, 141);
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+
+}
+
 h1 {
     font-size: 60px;
     margin: 0;
@@ -43,5 +52,8 @@ ul > a:hover{
     }
     .navbar {
         justify-content: center;
+    }
+    .icon{
+        margin-top: 110%;
     }
 } 
