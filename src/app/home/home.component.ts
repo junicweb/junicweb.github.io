@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAd } from '@fortawesome/free-solid-svg-icons';
 import { faHandsHelping } from '@fortawesome/free-solid-svg-icons';
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +14,7 @@ export class HomeComponent implements OnInit {
   faPencilAlt = faPencilAlt;
   faAd = faAd;
   faHandsHelping = faHandsHelping;
+  faChevronCircleDown = faChevronCircleDown;
 
   constructor() { }
 
