@@ -123,6 +123,14 @@ h3 {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.03);
   cursor: pointer;
+  background-color: black;
+  border-radius: 5%;
+  .card-text {
+    color: #ddc476;
+  }
+  .faClone{
+    color: #ddc476;
+  }
 }
 
 .card .card-margin {
