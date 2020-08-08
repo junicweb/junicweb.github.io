@@ -20,6 +20,14 @@ a {
   margin-left: 25px;
 }
 
+.first-a{
+  margin-left: 0;
+}
+
+ul{
+  padding-left: 0;
+}
+
 p {
   color: #ddc476;
 }
@@ -35,5 +43,8 @@ ul > a:hover {
 
   a {
     margin-left: 25px;
+  }
+  .titles{
+    flex-direction: column;
   }
 }
