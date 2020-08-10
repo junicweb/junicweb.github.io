@@ -3,6 +3,8 @@ import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { faAd } from '@fortawesome/free-solid-svg-icons';
 import { faHandsHelping } from '@fortawesome/free-solid-svg-icons';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +17,8 @@ export class HomeComponent implements OnInit {
   faAd = faAd;
   faHandsHelping = faHandsHelping;
   faChevronCircleDown = faChevronCircleDown;
+  faInstagram = faInstagram;
+  faWhatsapp = faWhatsapp;
 
   constructor() { }
 

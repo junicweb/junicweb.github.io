@@ -43,6 +43,13 @@ h3 {
   color: black;
 }
 
+.h3-footer{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+  color: white;
+}
+
 .container-servicio {
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +61,6 @@ h3 {
 }
 
 .portafolio {
-  background: #f2f2f2;
   padding-bottom: 50px;
 }
 
@@ -151,4 +157,22 @@ a {
   text-decoration: none;
   color: #ddc476;;
   padding-top: 10px;
+}
+
+/* footer */
+
+footer{
+  background: black;
+  color: #fff;
+}
+
+.contacto{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
 }
